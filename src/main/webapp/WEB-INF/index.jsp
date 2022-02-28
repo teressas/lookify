@@ -8,15 +8,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="/css/style.css" />
 <title>Lookify!</title>
 </head>
 <body>
 
 	<div class="container mt-5">
-		<h1>Welcome to Lookify!</h1>
-		<a href="/dashboard">Start Looking!</a>
+		<h1>Welcome to Lookify</h1>
+		<a href="/dashboard">Start Looking</a>
 	</div>
-	
+
 </body>
 </html>

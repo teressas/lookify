@@ -16,7 +16,7 @@
 	
 		<a href="/dashboard">Dashboard</a>
 	
-		<form:form action="/songs/new" method="post" modelAttribute="newSong" class="form">
+		<form:form action="/songs/new" method="post" modelAttribute="newSong" class="form-group">
 				<p>
 					<form:label path="name" class="form-label">Title</form:label>
 					<form:errors path="name" class="text-danger"/>

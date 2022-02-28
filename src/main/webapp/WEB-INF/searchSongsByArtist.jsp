@@ -12,12 +12,10 @@
 <title>Search</title>
 </head>
 <body>
-
 	<div class="container mt-5">
-		<div>
+		<div class="d-flex justify-content-end">
 			<span>Songs By Artist: ${song.artist } </span>
-		</div>
-		<div>
+		
 			<form action="/search" method="post">
 				<input type="search" name="artist" />
 				<button class="btn btn-primary">Search</button>
@@ -26,6 +24,7 @@
 		<div>
 			<a href="/dashboard">Dashboard</a>
 		</div>
+
 		
 		<table class="table table-striped">
 			<thead>
